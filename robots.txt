@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://brusselsmongolia.mn/sitemap.xml
