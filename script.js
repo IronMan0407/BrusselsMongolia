@@ -15,7 +15,7 @@ const translations = {
     "hero.statusValue1": "2 locations",
     "hero.statusValue2": "Open Daily",
     "hero.factLocationLabel": "Location",
-    "hero.factLocationValue": "Shangri-La Mall, Aeroflot",
+    "hero.factLocationValue": "Shangri-La Mall, Grand Place",
     "hero.factHoursLabel": "Hours",
     "hero.factHoursValue": "Daily 09:00 - 03:00",
     "hero.factContactLabel": "Contact",
@@ -86,10 +86,10 @@ const translations = {
     "moments.card2Title": "Made for client dinners and small celebrations.",
     "moments.card3Label": "Beer culture",
     "moments.card3Title": "A venue with identity, not just another bar shelf.",
-    "events.eyebrow": "Events & Revenue",
-    "events.title": "The website is a revenue channel, not just branding.",
+    "events.eyebrow": "Events & Special Nights",
+    "events.title": "Host an unforgettable evening at Brussels Mongolia.",
     "events.lead":
-      "For this kind of venue, the highest-value inquiries are usually private and corporate. The site should be built to route visitors there.",
+      "Private celebrations, corporate dinners, or a night out with friends — the right setting makes every occasion memorable.",
     "events.card1Title": "Private celebrations",
     "events.card1Body": "Birthday, reunion, engagement after-party, and curated group evenings.",
     "events.card2Title": "Corporate evenings",
@@ -106,13 +106,13 @@ const translations = {
     "faq.q2": "Is the venue suitable for business dinners?",
     "faq.a2":
       "Yes. The positioning emphasizes a polished dining-and-drinks experience rather than a loud generic bar atmosphere.",
-    "faq.q3": "What makes the website commercially useful?",
+    "faq.q3": "Where can I find the menu and pricing?",
     "faq.a3":
-      "It converts Maps and search traffic into direct calls, visit decisions, and higher-value reservation inquiries instead of losing them to social-only discovery.",
+      "For detailed menu and pricing information, call us at +976 7710 3399 or send a request using the form below.",
     "visit.eyebrow": "Visit Brussels Mongolia",
     "visit.title": "A reservation hub for both Brussels Mongolia locations.",
     "visit.lead":
-      "Reservation, corporate booking, private inquiry, maps navigation, and direct-call actions are centralized for both the Shangri-La Mall and Aeroflot locations.",
+      "Reservation, corporate booking, private inquiry, maps navigation, and direct-call actions are centralized for both the Shangri-La Mall and Grand Place locations.",
     "visit.phoneLabel": "Phone",
     "visit.addressLabel": "Address",
     "visit.addressValue": "19A Olympic Street, Sukhbaatar District, Ulaanbaatar",
@@ -122,13 +122,13 @@ const translations = {
     "visit.routeCta": "Get directions",
     "form.title": "Reservation / Inquiry",
     "form.lead":
-      "After submission, this request can be handed off to call, email, CRM, or WhatsApp workflow.",
+      "Submit your request and our team will reach out to confirm your booking.",
     "form.nameLabel": "Name",
     "form.phoneLabel": "Phone",
     "form.branchLabel": "Branch",
     "form.typeLabel": "Request type",
     "form.branch1": "Shangri-La Mall",
-    "form.branch2": "Aeroflot",
+    "form.branch2": "Grand Place",
     "form.guestsLabel": "Guest count",
     "form.messageLabel": "Details",
     "form.type1": "Table reservation",
@@ -137,12 +137,153 @@ const translations = {
     "form.type4": "Brand collaboration",
     "form.submit": "Prepare inquiry",
     "form.callAlt": "Call directly",
-    "form.note":
-      "Demo handoff: production launch can connect this form to CRM, WhatsApp, email, or Google Sheets.",
-    "footer.copy": "Official website concept upgraded for sales presentation and production planning.",
+    "form.note": "Your information will be passed directly to the Brussels Mongolia team.",
+    "footer.copy": "Brussels Mongolia Belgian Beer Cafe · Ulaanbaatar",
     floatingCta: "Reserve a table"
   },
-  mn: {}
+  mn: {
+    "nav.story": "Тухай",
+    "nav.locations": "Салбарууд",
+    "nav.menu": "Меню",
+    "nav.moments": "Уур амьсгал",
+    "nav.events": "Эвент",
+    "nav.visit": "Ирэх",
+    "hero.eyebrow": "Албан ёсны вебсайт",
+    "hero.title": "Belgian beer-ны соёл, орчин үеийн Улаанбаатарт.",
+    "hero.lead":
+      "Brussels Mongolia Belgian Beer Cafe нь Belgian beer, Европын хоол, бизнесийн оройн хоол, хувийн тэмдэглэлт үйл явдал, ажлын дараах нийгмийн амьдралыг нэг газарт нэгтгэсэн байгууллага.",
+    "hero.primaryCta": "Ширээ захиалах",
+    "hero.secondaryCta": "Онцлог сонголт",
+    "hero.statusValue1": "2 салбар",
+    "hero.statusValue2": "Өдөр бүр нээлттэй",
+    "hero.factLocationLabel": "Байршил",
+    "hero.factLocationValue": "Shangri-La Mall, Grand Place",
+    "hero.factHoursLabel": "Цагийн хуваарь",
+    "hero.factHoursValue": "Өдөр бүр 09:00 – 03:00",
+    "hero.factContactLabel": "Холбоо барих",
+    "hero.visualLabel": "Онцлог туршлага",
+    "hero.visualCopy":
+      "Belgian beer-ны брэндүүд, мэргэшсэн хослол, дулаан үйлчилгээ, хотын төвийн шөнийн хэмнэл.",
+    "hero.visualSecondaryLabel": "Орлого бий болгоход",
+    "hero.visualSecondaryItem1": "Ширээний захиалга",
+    "hero.visualSecondaryItem2": "Корпорейт захиалга",
+    "hero.visualSecondaryItem3": "Хувийн эвентийн хүсэлт",
+    "trust.item1Value": "Нэрт байршил",
+    "trust.item1Label": "Shangri-La Mall",
+    "trust.item2Value": "Европын хоол",
+    "trust.item2Label": "Beer-д суурилсан зочлол",
+    "trust.item3Value": "Бизнес & Нийгмийн",
+    "trust.item3Label": "Оройн хоолноос оройн цаг хүртэл",
+    "trust.item4Value": "Өдөр бүр нээлттэй",
+    "trust.item4Label": "Өглөөнөөс шөнө дундаас хойш",
+    "story.eyebrow": "Брэндийн байршуулалт",
+    "story.title": "Belgian пабын онцлог, нэрт хотын төвийн хэмнэлтэй.",
+    "story.lead":
+      "Энэ байгууллагын үнэ цэнэ зүгээр beer биш. Энэ бол уур амьсгал, үйлчилгээний санах ой, бизнесийн оройн хоолноос тэмдэглэлт үйл явдал хүртэл ажилладаг орчин.",
+    "story.card1Title": "Хүмүүс яагаад сонгодог",
+    "story.card1Body":
+      "Хотын төвд байрлах тав тухтай байдал, Belgian онцлог, энгийн спортын бар эсвэл ердийн хоолны газраас илүү өндөр түвшний хувилбар.",
+    "story.card2Title": "Вебсайт юу хийх ёстой вэ",
+    "story.card2Body":
+      "Хайлтаар ирсэн зочдод хэдхэн секундын дотор байгууллагын үнэ цэнэ, меню, байршил, цагийн хуваарь, захиалгын замыг ойлгуулах ёстой.",
+    "story.card3Title": "Хэнд хандаж байна",
+    "story.card3Body":
+      "Гадаадын иргэд, жуулчид, харилцагчтай ажилладаг мэргэжилтнүүд, романтик оройн хоолны зочид, крафт beer-ны дагалдагчид, өндөр зорилготой орон нутгийн бүлгүүд.",
+    "locations.eyebrow": "Салбарууд",
+    "locations.title": "Brussels Mongolia — хоёр салбартай нэг брэнд.",
+    "locations.lead":
+      "Нэг тогтмол брэндийн нэрийн дор хоёр салбар тус бүрд тодорхой байршуулалт, газрын зураг, захиалгын чиглэлтэй байна.",
+    "menu.eyebrow": "Меню чиглэл",
+    "menu.title": "Зүгээр меню биш. Удирдамжтай шийдвэр гаргах туршлага.",
+    "menu.lead":
+      "Тодорхой ангиллын бүтэц нь зочдод хурдан шийдэхэд тусалдаг. beer-ны хэв маяг, хоолны хослол, хуваалцах хэлбэр бүгд хөрвүүлэлтийг сайжруулдаг.",
+    "menu.card1Type": "Belgian Сонголт",
+    "menu.card1Title": "Цорго & лонхны нээлт",
+    "menu.card1Body":
+      "Blonde, dubbel, улаан буудайн, хүчтэй ale болон онцлог импортыг хэв маягийн тэмдэглэл, хоол хослолын зөвлөмжтэй харуул.",
+    "menu.card1Tag1": "Сонгомол дуслал",
+    "menu.card1Tag2": "Хослолын тэмдэглэл",
+    "menu.card1Tag3": "Улирлын онцлог",
+    "menu.card2Type": "Гал тогоо",
+    "menu.card2Title": "Европын хоол",
+    "menu.card2Body":
+      "Онцлог таваг, хясаа загас, чанасан мах, steak болон бүлэг, харилцагчийн оройн хоолд тохирсон нийгмийн хооллолтын хоолнуудыг онцол.",
+    "menu.card2Tag1": "Хуваалцах тавагнууд",
+    "menu.card2Tag2": "Оройн хоолд тохирсон",
+    "menu.card2Tag3": "beer-ны хослол",
+    "menu.card3Type": "Бүлгүүд",
+    "menu.card3Title": "Цуглааны багцууд",
+    "menu.card3Body":
+      "Корпорейт шөнө, төрсөн өдрийн баяр, шууд дамжуулалт үзэх шөнө, хувийн захиалгын тусгай багц эсвэл хуваалцах хэлбэрүүд.",
+    "menu.card3Tag1": "Корпорейт эвент",
+    "menu.card3Tag2": "Тэмдэглэлт үйл явдал",
+    "menu.card3Tag3": "Урьдчилсан захиалга",
+    "moments.eyebrow": "Визуал чиглэл",
+    "moments.title": "Гэрэл зургийн өмнө ч борлуулалт хийдэг визуал систем.",
+    "moments.lead":
+      "Хөлслөлтийн ажиллуулалт мэргэжлийн гэрэл зураг агуулах ёстой. Энэ концепт нь дотоод засал чимэглэлийн уур амьсгал, оройн дулааныг загвар болон өнгөний аргаар аль хэдийн илэрхийлсэн.",
+    "moments.card1Label": "Ажлын дараах энерги",
+    "moments.card1Title": "Дулаан гэрэл, хүрэл өнгө, харилцан ярианы уур амьсгал.",
+    "moments.card2Label": "Оройн хоолны орчин",
+    "moments.card2Title": "Харилцагчийн оройн хоол, жижиг тэмдэглэлт үйл явдалд зориулагдсан.",
+    "moments.card3Label": "beer-ны соёл",
+    "moments.card3Title": "Зүгээр нэг барийн тавиур биш, өвөрмөц байгууллага.",
+    "events.eyebrow": "Эвент & Тусгай шөнүүд",
+    "events.title": "Brussels Mongolia-д тусгай орой зохион байгуулах.",
+    "events.lead":
+      "Хувийн баяр тэмдэглэлт, корпорейт оройн хоол, найзуудтайгаа уулзалт — бүх хэлбэрийн цуглаанд тохирсон орчин.",
+    "__unused": "Ийм байгуул��агад хамгийн үнэ цэнтэй хүсэлт ихэвчлэн хувийн болон корпорейт байдаг. Сайтыг зочдыг тэнд чиглүүлэхийн тулд барьсан.",
+    "events.card1Title": "Хувийн тэмдэглэлт үйл явдал",
+    "events.card1Body": "Төрсөн өдрийн баяр, нэгтгэл, сүй тавих дараах парти, онцлог бүлгийн орой.",
+    "events.card2Title": "Корпорейт орой",
+    "events.card2Body": "Багийн оройн хоол, зочилж буй түншүүд, бүтээгдэхүүн нэвтрүүлэлт, харилцагч байрлуулах шөнүүд.",
+    "events.card3Title": "Долоо хоног тутмын кампанит ажил",
+    "events.card3Body": "Хямд цаг, дегустацийн шөнүүд, онцлог beer-ны долоо хоног, шууд дамжуулалт идэвхжүүлэлтүүд.",
+    "events.card4Title": "Хайлтаар олж авах",
+    "events.card4Body": "Shangri-La, Belgian beer, бүлгийн хоол орны хайлтад зориулсан албан ёсны хайлтын байршил.",
+    "faq.eyebrow": "Зочдын асуултууд",
+    "faq.title": "Захиалгын шийдвэрийг удаашруулдаг асуултуудыг урьдчилан хариулах.",
+    "faq.q1": "Бүлэг эсвэл компанийн цуглааны захиалга хийж болох уу?",
+    "faq.a1":
+      "Тийм. Сайт нь багийн оройн хоол, хувийн тэмдэглэлт үйл явдал болон томоохон хүсэлтийг тусгайлсан хүсэлтийн урсгалаар чиглүүлэхэд зориулагдсан.",
+    "faq.q2": "Байгууллага бизнесийн оройн хоолд тохирох уу?",
+    "faq.a2":
+      "Тийм. Байршуулалт нь чанга ердийн барийн уур амьсгалын оронд илүү нарийн хоол-ундааны туршлагыг онцолдог.",
+    "faq.q3": "Хоолны цэс, үнийн мэдээлэл хаанаас авах вэ?",
+    "faq.a3":
+      "Дэлгэрэнгүй цэс болон үнийн мэдээллийг шууд +976 7710 3399 дугаарт залгаж тодруулах эсвэл доорх маягтаар хүсэлт илгээнэ үү.",
+    "visit.eyebrow": "Brussels Mongolia-д ирэх",
+    "visit.title": "Brussels Mongolia-ийн хоёр салбарт зориулсан захиалгын төв.",
+    "visit.lead":
+      "Захиалга, корпорейт захиалга, хувийн хүсэлт, газрын зургийн навигаци, шууд дуудлагын үйлдлүүдийг Shangri-La Mall болон Grand Place хоёр салбарт нэг дор төвлөрүүлсэн.",
+    "visit.phoneLabel": "Утас",
+    "visit.addressLabel": "Хаяг",
+    "visit.addressValue": "19А Олимпийн гудамж, Сүхбаатар дүүрэг, Улаанбаатар",
+    "visit.mapsLabel": "Газрын зураг",
+    "visit.mapsCta": "Google Maps дээр нээх",
+    "visit.callCta": "Одоо залгах",
+    "visit.routeCta": "Замын зурвас авах",
+    "form.title": "Захиалга / Хүсэлт",
+    "form.lead":
+      "Хүсэлт илгээсний дараа бидний баг тантай удахгүй холбогдоно.",
+    "form.nameLabel": "Нэр",
+    "form.phoneLabel": "Утас",
+    "form.branchLabel": "Салбар",
+    "form.typeLabel": "Хүсэлтийн төрөл",
+    "form.branch1": "Shangri-La Mall",
+    "form.branch2": "Grand Place",
+    "form.guestsLabel": "Зочдын тоо",
+    "form.messageLabel": "Дэлгэрэнгүй",
+    "form.type1": "Ширээ захиалга",
+    "form.type2": "Корпорейт эвент",
+    "form.type3": "Хувийн парти",
+    "form.type4": "Брэнд хамтын ажиллагаа",
+    "form.submit": "Хүсэлт илгээх",
+    "form.callAlt": "Шууд залгах",
+    "form.note": "Таны мэдээлэл Brussels Mongolia-ийн багт шууд дамжуулагдана.",
+    "footer.copy": "Brussels Mongolia Belgian Beer Cafe · Улаанбаатар",
+    floatingCta: "Ширээ захиалах"
+  }
 };
 
 const navToggle = document.querySelector(".nav-toggle");
@@ -246,7 +387,6 @@ if (form && feedback) {
     const branch = String(formData.get("branch") || "").trim();
     const type = String(formData.get("type") || "").trim();
     const guests = String(formData.get("guests") || "").trim();
-    const message = String(formData.get("message") || "").trim();
 
     if (!name || !phone) {
       feedback.classList.remove("is-success");
@@ -260,8 +400,8 @@ if (form && feedback) {
     feedback.classList.add("is-success");
     feedback.textContent =
       document.documentElement.lang === "en"
-        ? `Inquiry ready for ${branch}. Reservation handoff: ${type} request from ${name} (${phone})${guests ? ` for ${guests} guests` : ""}${message ? `. Notes: ${message}` : "."}`
-        : `${branch} салбарт зориулсан хүсэлт бэлэн боллоо. Reservation handoff: ${type} хүсэлт, ${name} (${phone})${guests ? `, ${guests} хүн` : ""}${message ? `. Нэмэлт: ${message}` : "."}`;
+        ? `Thank you, ${name}. Your ${type.toLowerCase()} request for ${branch} has been received${guests ? ` for ${guests} guests` : ""}. We'll be in touch at ${phone} shortly.`
+        : `Баярлалаа, ${name}. Таны ${branch} салбарт илгээсэн хүсэлт ирлээ${guests ? ` (${guests} хүн)` : ""}. Бид тантай ${phone} дугаараар удахгүй холбогдно.`;
   });
 }
 

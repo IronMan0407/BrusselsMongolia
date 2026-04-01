@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://brusselsmongolia.mn/sitemap.xml
+Sitemap: https://ironman0407.github.io/BrusselsMongolia/sitemap.xml
